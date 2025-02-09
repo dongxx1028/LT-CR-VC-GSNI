@@ -1,6 +1,7 @@
 # LT-CR-VC-GSNI
 # What is this repository for
 **LT-CR-VC-GSNI** is Laplace transform, characteristic root method, method of variation of constants and the Gaver-Stehfest numerical inversion (LT-CR-VC-GSNI) algorithm program for solving fracturing flowback pollution coupling model in fractures system and wellbore of shale gas development.
+
 The projection contains **9 files**: Code of Cbe.m, vf1r.m, vf1l.m, v1b.m, vbe.m, Lf1l.m, Lf1r.m, L.m, H.m. 
 - Code of Cbe.m is command file, its main purpose is to use LT-CR-VC-GSNI algorithm to obtain the instantaneous concentration of contaminants at the wellhead. 
 - vf1r.m, vf1l.m, v1b.m, vbe.m, Lf1l.m, Lf1r.m, L.m, H.m are all command files. Their main purposes are to use LT-CR-VC-GSNI algorithm to obtain the instantaneous concentration of contaminants at the wellhead under different backflow velocities of fracturing flowback fluid in the left and right wings of the fracture and horizontal and vertical sections of the wellbore, the lengths of the left and right wings of the vertical artificial fracture and horizontal section of the wellbore, the height of the vertical section of the wellbore.
